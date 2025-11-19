@@ -1,0 +1,9 @@
+{
+  "name": "ASP.NET Core 8",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8",
+  "extensions": [
+    "ms-dotnettools.csharp"
+  ],
+  "forwardPorts": [8080],
+  "postCreateCommand": "dotnet --info"
+}
